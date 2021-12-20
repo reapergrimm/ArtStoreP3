@@ -23,7 +23,6 @@ html, body {
 }
 
 #home-container{
-    /* background-color: blue; */
     height: 100%;
     display: grid;
     grid-template-rows: 1fr 1fr;
@@ -37,7 +36,7 @@ html, body {
     background-position: 50%;
 }
 
-.r1-inner, .r2-inner{
+.r1-inner{
     width: 80%;
     height: 100%;
     margin: 0px auto;
@@ -79,7 +78,7 @@ html, body {
 }
 
 .gallery-description{
-    padding-top: 20%;
+    padding-top: 15%;
     padding-bottom: 40px;
     text-align: center;
     color: white;
