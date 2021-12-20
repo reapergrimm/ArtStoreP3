@@ -10,6 +10,18 @@ html, body {
 }
 
 /* home-page css */
+.cursive{
+    font-family: 'Cookie', cursive;
+}
+
+.circle{
+    border-radius: 50%;
+}
+
+.drop-shadow{
+    text-shadow: 1px 2px 3px #000;
+}
+
 #home-container{
     /* background-color: blue; */
     height: 100%;
@@ -19,9 +31,13 @@ html, body {
 
 .r1{
     background-color: black;
+    background-image: url('img/david.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
 }
 
-.r1-inner{
+.r1-inner, .r2-inner{
     width: 80%;
     height: 100%;
     margin: 0px auto;
@@ -40,10 +56,21 @@ html, body {
     font-size: 1.75em;
 }
 
+
 .home-main-nav > ul > li > a{
     color: white;
     text-decoration: none;
-    padding: 15px 1em;
+    padding: 15px .5em;
+    text-shadow: 2px 2px 3px #000;
+}
+
+.home-main-nav > ul > li:first-child{
+    font-family: 'Cookie', cursive;
+}
+
+.home-main-nav > ul > li:first-child > a:hover{
+    background-color: transparent;
+    color: #428bca;
 }
 
 .home-main-nav > ul > li > a:hover{
@@ -51,6 +78,30 @@ html, body {
     color: red;
 }
 
+.gallery-description{
+    padding-top: 20%;
+    padding-bottom: 40px;
+    text-align: center;
+    color: white;
+    font-size: 1.4em;
+}
 
+.r2{
+    display: grid;
+    padding: 2em 0px;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    width: 80%;
+    margin: 0px auto;
+    height: 100%;
+}
+
+.r2 > div{
+    text-align: center;
+}
+
+.left-align{
+    text-align: left;
+}
 
 /* end home-page css */
