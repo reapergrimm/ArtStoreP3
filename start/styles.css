@@ -9,6 +9,14 @@ html, body {
     width: 100vw;
 }
 
+h1{
+    font-size: 2em;
+}
+
+.full-width{
+    width: 100%
+}
+
 /* home-page css */
 .cursive{
     font-family: 'Cookie', cursive;
