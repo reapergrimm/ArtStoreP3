@@ -1,0 +1,12 @@
+.small-text{
+  font-size: .95em;
+}
+.btn-bordered{
+  border: 1px solid #CCC;
+}
+
+.bordered{
+  border: 1px solid #CCC;
+  border-radius: 7px;
+  padding: 1em;
+}
